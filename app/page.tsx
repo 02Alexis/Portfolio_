@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Hero from "./components/Hero";
 
 function HomePage() {
@@ -17,6 +18,7 @@ function HomePage() {
       "
     >
       <Hero />
+      <About />
     </main>
   );
 }
