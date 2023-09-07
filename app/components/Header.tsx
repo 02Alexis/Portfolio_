@@ -72,12 +72,12 @@ const Header: React.FC = () => {
           </motion.div>
           <h3
             className="
-                px-2 
-                text-green-600
-                dark:text-green-600
-                font-bold 
-                text-lg 
-                sm:text-2xl
+              px-2 
+              text-green-600
+              dark:text-green-600
+              font-bold 
+              text-lg 
+              sm:text-2xl
             "
           >
             matq
@@ -86,12 +86,12 @@ const Header: React.FC = () => {
         <nav className="flex items-center ">
           <button
             className="
-                sm:hidden 
-                flex 
-                flex-col 
-                justify-center 
-                items-center 
-                w-8 h-8
+              sm:hidden 
+              flex 
+              flex-col 
+              justify-center 
+              items-center 
+              w-8 h-8
             "
             onClick={() => setshow(!show)}
           >
@@ -100,7 +100,7 @@ const Header: React.FC = () => {
               className="
                 text-lightblue 
                 dark:text-lightblue
-                "
+              "
             />
           </button>
 
@@ -127,13 +127,13 @@ const Header: React.FC = () => {
       <div
         ref={menu}
         className={`
-            absolute
-            bg-lightblue/75 dark:bg-darkhover backdrop-blur-lg rounded 
-            translate-x-[var(--left)] translate-y-[var(--top)]
-            left-0 top-0
-            w-[var(--width)] h-[var(--height)]
-            transition-all duration-500
-            ease-in-out opacity-0 -z-10
+          absolute
+          bg-lightblue/75 dark:bg-darkhover backdrop-blur-lg rounded 
+          translate-x-[var(--left)] translate-y-[var(--top)]
+          left-0 top-0
+          w-[var(--width)] h-[var(--height)]
+          transition-all duration-500
+          ease-in-out opacity-0 -z-10
         `}
       />
     </header>
