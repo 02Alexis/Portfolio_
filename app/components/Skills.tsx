@@ -5,14 +5,20 @@ import {
   variantsSkillsChildren,
   variantsSkillsParent,
 } from "../utils/variantsModal";
+
 import Javascript from "./Svgs/Javascript";
 import React from "./Svgs/React";
-import Next from "./Svgs/Next";
 import Css from "./Svgs/Css";
+import Next from "./Svgs/Next";
 import Html from "./Svgs/Html";
 import Redux from "./Svgs/Redux";
 import Git from "./Svgs/Git";
 import MongoDB from "./Svgs/MongoDB";
+import Python from "./Svgs/Python";
+import Django from "./Svgs/Django";
+import Nestjs from "./Svgs/Nestjs";
+import Sass from "./Svgs/Sass";
+import Firebase from "./Svgs/Firebase";
 
 const Skills = () => {
   const skillsArray = [
@@ -22,8 +28,13 @@ const Skills = () => {
     { name: "CSS3", component: <Css /> },
     { name: "HTML5", component: <Html /> },
     { name: "Redux", component: <Redux /> },
+    { name: "Sass", component: <Sass /> },
     { name: "Git", component: <Git /> },
+    { name: "Python", component: <Python /> },
+    { name: "Django", component: <Django /> },
+    { name: "Nestjs", component: <Nestjs /> },
     { name: "MongoDB", component: <MongoDB /> },
+    { name: "Firebase", component: <Firebase /> },
   ];
 
   return (

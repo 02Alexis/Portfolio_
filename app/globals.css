@@ -221,7 +221,7 @@ li {
 }
 
 #cards {
-  --numcards: 5;
+  --numcards: 6;
   view-timeline-name: --cards-element-scrolls-in-body;
   /* margin-top: 20px; */
   list-style-type: none;
