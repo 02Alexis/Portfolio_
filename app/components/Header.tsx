@@ -37,11 +37,11 @@ const Header: React.FC = () => {
   return (
     <header
       className="
-            py-4
-            w-[90vw]
-            xl:max-w-7xl
-            m-auto
-        "
+        py-4
+        w-[90vw]
+        xl:max-w-7xl
+        m-auto
+      "
     >
       <div
         className="
@@ -55,26 +55,26 @@ const Header: React.FC = () => {
         <Link
           href="/"
           className="
-                flex
-                items-center
+              flex
+              items-center
             "
         >
           <motion.div whileHover={{ y: -2 }}>
             <CgCodeSlash
               className="
-                    text-green-600
-                    dark:text-green-600
-                    font-bold
-                    text-lg
-                    sm:text-2xl
+              text-lightemerald
+              dark:text-darkemerald
+                font-bold
+                text-lg
+                sm:text-2xl
                 "
             />
           </motion.div>
           <h3
             className="
               px-2 
-              text-green-600
-              dark:text-green-600
+              text-lightemerald
+              dark:text-darkemerald
               font-bold 
               text-lg 
               sm:text-2xl
@@ -98,8 +98,8 @@ const Header: React.FC = () => {
             <FaBars
               size={20}
               className="
-                text-lightblue 
-                dark:text-lightblue
+              text-lightemerald
+              dark:text-darkemerald
               "
             />
           </button>
@@ -128,7 +128,7 @@ const Header: React.FC = () => {
         ref={menu}
         className={`
           absolute
-          bg-lightblue/75 dark:bg-darkhover backdrop-blur-lg rounded 
+          bg-lightemerald/75 dark:bg-darkhover backdrop-blur-lg rounded 
           translate-x-[var(--left)] translate-y-[var(--top)]
           left-0 top-0
           w-[var(--width)] h-[var(--height)]

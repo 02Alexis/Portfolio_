@@ -28,7 +28,7 @@ const Contact = () => {
       </h2>
       <p
         className="
-            text-lightblue 
+            text-lightemerald
             m-auto 
             inline-block 
             text-center 

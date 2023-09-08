@@ -1,5 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const { fontFamily } = require("tailwindcss/defaultTheme")
+const { fontFamily } = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
@@ -13,11 +13,11 @@ module.exports = {
     extend: {
       colors: {
         light: "#f5f5f5",
-        lightblue: "#2C74B3",
-        lighthover: "#205295",
+        lightemerald: "#059669",
+        lighthover: "#065f46",
         dark: "#1b1b1b",
-        darkblue: "#4282ba",
-        darkhover: "#205295",
+        darkemerald: "#15803d",
+        darkhover: "#065f46",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

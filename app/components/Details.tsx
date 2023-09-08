@@ -10,40 +10,40 @@ const Details = ({ id, title, ...props }: ProjectsProps) => {
     <li id={`card_${id}`} className="card">
       <div
         className="
-            group 
-            card__detail 
-            card__content 
-            bg-light 
-            dark:bg-darkblue 
-            dark:shadow-none
+          group 
+          card__detail 
+          card__content 
+          bg-light 
+          dark:bg-darkemerald
+          dark:shadow-none
         "
       >
         <h6
           className="
-                text-white 
-                text-base 
-                sm:text-lg 
-                font-bold 
-                text-center
-            "
+            text-white 
+            text-base 
+            sm:text-lg 
+            font-bold 
+            text-center
+          "
         >
           {title}
         </h6>
         <div
           className="
-                flex 
-                flex-col 
-                sm:flex-row 
-                justify-start 
-                items-start 
-                gap-6
-            "
+            flex 
+            flex-col 
+            sm:flex-row 
+            justify-start 
+            items-start 
+            gap-6
+          "
         >
           <div
             className="
-                overflow-hidden 
-                rounded-xl 
-                group-hover:rounded-xl
+              overflow-hidden 
+              rounded-xl 
+              group-hover:rounded-xl
             "
           >
             <Image

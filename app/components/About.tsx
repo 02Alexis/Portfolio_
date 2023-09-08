@@ -5,35 +5,35 @@ const About = () => {
     <div
       id="about"
       className="
-            w-full 
-            m-auto 
-            grid 
-            grid-cols-1 
-            sm:grid-cols-2 
-            gap-4 
-            justify-center 
-            items-center 
-            overflow-hidden
-        "
+        w-full 
+        m-auto 
+        grid 
+        grid-cols-1 
+        sm:grid-cols-2 
+        gap-4 
+        justify-center 
+        items-center 
+        overflow-hidden
+      "
     >
       <div
         className="
-                mt-[90px] 
-                h-full 
-                flex 
-                flex-col 
-                gap-4 
-                items-start 
-                justify-start 
-                font-medium 
-                [&>p]:text-sm 
-                md:[&>p]:text-base 
-                dark:text-light
-            "
+          mt-[90px] 
+          h-full 
+          flex 
+          flex-col 
+          gap-4 
+          items-start 
+          justify-start 
+          font-medium 
+          [&>p]:text-sm 
+          md:[&>p]:text-base 
+          dark:text-light
+        "
       >
         <p>
           My nombre es
-          <span className="font-bold text-green-600"> Alexis Tamayo. </span>
+          <span className="font-bold text-lightemerald"> Alexis Tamayo. </span>
           Soy desarrollador Front-End.
         </p>
         <p>

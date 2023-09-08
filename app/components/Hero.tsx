@@ -53,7 +53,7 @@ function Hero() {
           "
         >
           <h2 className="dark:text-light">Soy Alexis Tamayo</h2>
-          <h2 className="text-green-600 dark:text-green-600">
+          <h2 className="text-lightemerald dark:text-darkemerald">
             Desarrollador Front-End
           </h2>
           <p

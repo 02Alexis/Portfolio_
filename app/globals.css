@@ -187,7 +187,7 @@ li {
 }
 
 .forminput {
-  @apply block rounded-md w-full border-0 py-1.5 px-2 text-gray-500 shadow-sm ring-1 ring-inset ring-gray-500 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6;
+  @apply block rounded-md w-full border-0 py-1.5 px-2 text-gray-500 shadow-sm ring-1 ring-inset ring-gray-500 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6;
 }
 
 .herosvg {
@@ -195,7 +195,7 @@ li {
 }
 
 .svgpath {
-  @apply fill-lightblue group-hover/hero:fill-lighthover group-hover/hero:dark:fill-darkhover transition-all duration-500;
+  @apply fill-lightemerald group-hover/hero:fill-lighthover group-hover/hero:dark:fill-darkhover transition-all duration-500;
 }
 
 .svgpath2 {
@@ -203,7 +203,7 @@ li {
 }
 
 .linkbutton {
-  @apply flex px-8 py-2 border-none rounded-full w-fit bg-lightblue text-light items-center justify-center gap-1 hover:bg-lighthover hover:dark:bg-darkhover
+  @apply flex px-8 py-2 border-none rounded-full w-fit bg-lightemerald text-light items-center justify-center gap-1 hover:bg-lighthover hover:dark:bg-darkhover
   transition-all duration-500;
 }
 
@@ -253,6 +253,10 @@ li {
 
 #card_5 {
   --index: 5;
+}
+
+#card_6 {
+  --index: 6;
 }
 
 .card {
