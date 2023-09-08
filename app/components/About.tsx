@@ -37,6 +37,10 @@ const About = () => {
           Soy desarrollador Front-End.
         </p>
         <p>
+          Disfruto de la música y los videojuegos, y me enorgullezco de mi
+          capacidad para liderar y aprender rápidamente.
+        </p>
+        <p>
           Estoy emocionado de tener la oportunidad de contribuir con mis
           habilidades y pasión a su próximo proyecto. ¡Gracias por visitar mi
           portafolio!
