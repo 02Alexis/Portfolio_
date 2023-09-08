@@ -1,10 +1,9 @@
 import Image from "next/image";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
-import React from "react";
 import Github from "./Svgs/Github";
-import Linkedin from "./Svgs/Linkedin";
 import Twitter from "./Svgs/Twitter";
+import Linkedin from "./Svgs/Linkedin";
 
 function Hero() {
   return (
