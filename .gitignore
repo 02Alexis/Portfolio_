@@ -6,6 +6,7 @@
 .pnp.js
 
 /app/components/Svgs
+/app/utils/projects.ts
 
 # testing
 /coverage

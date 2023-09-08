@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
     >
       <Hero />
       <About />
+      <Projects />
     </main>
   );
 }
