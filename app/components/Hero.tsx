@@ -79,7 +79,7 @@ function Hero() {
         "
         >
           <a
-            href="https://drive.google.com/file/d/1OqAl3lqqUhzEafoaHAU_Vv-uqI-NyNoI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1QuOcmNI9yA8c7rufN64pZDmQnpYanxa-/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="linkbutton"
@@ -104,7 +104,7 @@ function Hero() {
             <Github />
           </a>
           <a
-            href="https://www.linkedin.com/in/alexis-tamayo-quintero/"
+            href="https://www.linkedin.com/in/alexis-tamayo-quintero-frontend/"
             target="_blank"
             rel="noopener noreferrer"
             className="herosvg group/hero"
