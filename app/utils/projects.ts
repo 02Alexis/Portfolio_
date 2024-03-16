@@ -47,11 +47,10 @@ export const projects: ProjectsProps[] = [
   },
   {
     id: 6,
-    title: "App Posts",
-    description:
-      "Aplicación que permita a los usuarios registrarse, iniciar sesión, ver un feed de posts, interactuar con los posts y comentarios.",
-    tecnologies: "Nextjs, NextAuth, TypeScript, Nestjs, MongoDB",
-    github: "https://github.com/02Alexis/postsfront",
+    title: "Threads Clone",
+    description: "aplicación Clone de Threads.",
+    tecnologies: "MongoDB, Express, Reactjs, Nodejs, Chakra-UI",
+    github: "https://github.com/02Alexis/threads-clone",
     link: "#",
   },
 ];
