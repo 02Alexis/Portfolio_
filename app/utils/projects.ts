@@ -29,28 +29,27 @@ export const projects: ProjectsProps[] = [
   },
   {
     id: 4,
-    title: "Food App Delivery",
-    description:
-      "Aplicativo web para mobiles que permite reservar platos de restaurantes registrados en la app.",
-    tecnologies: "Reactjs, Redux, Redux Toolkit, Cloudinary, Sass, Firebase.",
-    github: "https://github.com/02Alexis/food-delivery-app",
-    link: "https://food-delivery-app-6d807.web.app/",
-  },
-  {
-    id: 5,
     title: "Landing Page CorpoAyapel",
     description:
-      "Diseñado para crear una experiencia de usuario intuitiva, dirigido tanto a organizaciones como a individuos comprometidos con hacer una diferencia a través de donaciones y contribuciones benéficas..",
+      "Diseñado para crear una experiencia de usuario intuitiva, dirigido tanto a organizaciones como a individuos comprometidos con hacer una diferencia a través de donaciones y contribuciones benéficas.",
     tecnologies: "Reactjs, Sass, Sanity, Hubspot.",
-    github: "https://github.com/02Alexis/Landing-Page-corpoayapel",
+    github: "https://github.com/02Alexis/corpoAyapelPage-front-4.git",
     link: "https://corpoayapel.org/",
   },
   {
-    id: 6,
+    id: 5,
     title: "Threads Clone",
-    description: "aplicación Clone de Threads.",
+    description: "Aplicación Clone de Threads.",
     tecnologies: "MongoDB, Express, Reactjs, Nodejs, Chakra-UI",
     github: "https://github.com/02Alexis/threads-clone",
     link: "#",
+  },
+  {
+    id: 6,
+    title: "Ecommerce Firebase",
+    description: "Sitio web de comercio electrónico utilizando React y Firebase.",
+    tecnologies: "Firebase, Redux, Reactjs, Tailwind4",
+    github: "https://github.com/02Alexis/ecommerce_firebase.git",
+    link: "https://ecommerce-firebase-vkro.vercel.app/",
   },
 ];
